@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Breaking-Bad-App/static/css/main.abd64e84.css",
+    "main.js": "/Breaking-Bad-App/static/js/main.1d54cd88.js",
+    "static/media/spinner.gif": "/Breaking-Bad-App/static/media/spinner.11d9cde8ebaeadb07ba7.gif",
+    "static/media/logo.png": "/Breaking-Bad-App/static/media/logo.e6ecab4407f10ecd02bd.png",
+    "index.html": "/Breaking-Bad-App/index.html",
+    "main.abd64e84.css.map": "/Breaking-Bad-App/static/css/main.abd64e84.css.map",
+    "main.1d54cd88.js.map": "/Breaking-Bad-App/static/js/main.1d54cd88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.1d54cd88.js"
+  ]
+}
