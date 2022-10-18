@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios'
 import './App.css';
 import Header from './components/Header';
+import CharacterGrid from './components/CharacterGrid';
 
 const App = () => {
 
@@ -15,7 +16,10 @@ const App = () => {
       https://www.breakingbadapi.com/api/characters
       `);
       
-      console.log(result.data)
+      // console.log(result.data)
+
+      setItems(result.data);
+      setIsLoading(false);
     }
 
     fetchItems()
@@ -25,6 +29,7 @@ const App = () => {
   return (
     <div className="container">
       <Header />
+      <CharacterGrid isLoading={isLoading} items={items} />
     </div>
   );
 }
